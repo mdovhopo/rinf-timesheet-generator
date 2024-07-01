@@ -1,0 +1,5 @@
+config.json
+*.xlsx
+!src/timesheet-template.xlsx
+*.csv
+node_modules

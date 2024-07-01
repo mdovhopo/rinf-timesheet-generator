@@ -1,0 +1,10 @@
+{
+  "fullName": "John Doe",
+  "projectName": "Extenda",
+  "contractId": "todo: add contract id",
+  "firstTimesheetDate": "2020-01-01",
+  "tasks": [
+    "example task 1",
+    "example task 2"
+  ]
+}
