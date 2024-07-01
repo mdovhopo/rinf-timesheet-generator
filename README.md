@@ -5,7 +5,7 @@
 1. clone repo
 2. nvm use
 3. npm ci
-4. download the timesheet from Tempo as csv (lets assume we name it `july-report.csv` and place it in the root of the project)
+4. download the timesheet from Tempo as csv (lets assume we name it `july-report.csv` and place it in the root of the project). Note: report should be in csv format from tempo. For that you need to click ... on the top right corner of the report and select 'csv report data'
  
 ## 2. Generate report
 
