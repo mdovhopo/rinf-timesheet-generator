@@ -2,7 +2,7 @@
  *
  * @param {Date} initialDate
  * @param {Date} reportDate
- * @returns {Number} reportNo
+ * @returns {Number}
  */
 
 export function getReportNo(initialDate, reportDate) {

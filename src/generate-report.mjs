@@ -3,9 +3,18 @@ import { loadTempoReport } from './load-tempo-report.mjs';
 import { buildReportFromTemplate } from './build-report-from-template.mjs';
 import { saveTimesheet } from './save-timesheet.mjs';
 
-export async function generateReport(tempoReportPath) {
+/**
+ * @typedef {import('./types').GenerateReportOptions} GenerateReportOptions
+ */
+
+/**
+ *
+ * @param {GenerateReportOptions} options
+ */
+
+export async function generateReport(options) {
   const config = loadConfig();
-  const tempoReport = loadTempoReport(tempoReportPath, config);
+  const tempoReport = loadTempoReport(options, config);
 
   const workbook = await buildReportFromTemplate(tempoReport, config);
 

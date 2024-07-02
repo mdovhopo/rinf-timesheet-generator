@@ -14,3 +14,12 @@
 ```
 
 This will produce a file and store it in the root of the project with the name as xlsx file.
+
+
+# API
+
+Run the following command to see the help and available commands
+
+```bash
+./cli.mjs help
+```
