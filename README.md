@@ -17,6 +17,12 @@ This will produce a file and store it in the root of the project with the name a
 
 > Note: tempo generator ignores NO640-1 task as it is a non-billable task meant for vacations/absences.
 
+### Usefull tips
+
+1. Use `--bonus-time` flag to add bonus time to the report. This will add time record to first date without timelog and add your bonus time
+
+```bash
+
 # API
 
 Run the following command to see the help and available commands
