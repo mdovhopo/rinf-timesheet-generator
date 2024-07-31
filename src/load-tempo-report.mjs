@@ -30,6 +30,8 @@ function reportToTable(report, replacementTasks) {
     .flatMap((date) =>
       report
         .filter((r) => r[date].length)
+        // remove NO640-1 task, which is a placeholder for vacation/absence
+        .filter((r) => r.Key !== 'NO640-1')
         .map((r) => [date, `[${r.Key}] ${r.Issue}`, r[date]])
     )
     .map(([date, , time], idx) => [
