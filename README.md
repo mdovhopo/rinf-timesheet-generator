@@ -15,6 +15,7 @@
 
 This will produce a file and store it in the root of the project with the name as xlsx file.
 
+> Note: tempo generator ignores NO640-1 task as it is a non-billable task meant for vacations/absences.
 
 # API
 
